@@ -1,0 +1,415 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bg-images{
+    background-image: url("../images/contact-us-bannar-img.jpg");
+    height: 250px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.contact-bg-images-inner{
+    background: #020202bf;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+}
+.contact-heading{
+    text-shadow: 2px 2px 4px;
+    letter-spacing: 5px;
+    font-size: 40px;
+    font-family: fangsong;
+    position: sticky;
+    top: 70px;
+}
+.contact-bg-images-inner .container>p{
+    max-width: 700px;
+    text-align: center;
+    color: #fff;
+    margin: 0 auto;
+    font-family: sans-serif;
+    letter-spacing: 2px;
+    font-size: 17px;
+}
+
+
+
+
+/* .contact-us-bannar-img{
+    background-image: url("../images/contact-us-bannar-img02.jpeg");
+    height: 620px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.contact-us-form-outer{
+    height: 100%;
+    width: 100%;
+    background: #222250;
+} */
+/* .contact-us-form{
+    transform: translate(0px, 5%);
+}
+.contact-form{
+    background-color:#fff;
+    border-radius: 15px;
+}
+.contact-form-img .logo {
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.contact-form-img .logo i{
+    font-size: 40px;
+    padding: 15px;
+    border-radius: 50%;
+    border:3px solid #fff;
+    color: #fff;
+}
+
+.facebook:hover >a i{
+    border: 5px solid #3b5998;
+    box-shadow: 0 0 15px #3b5998;
+    transition: all 0.5s ease;
+    color:#3b5998;
+    cursor: pointer;
+    scale: 1.1;
+} */
+/* .twitter:hover >a i{
+    border: 5px solid #00aced;
+    box-shadow: 0 0 15px #00aced;
+    transition: all 0.5s ease;  
+    color: #00aced;
+    cursor: pointer;
+    scale: 1.1;
+}
+.instagram:hover >a i{
+    border: 5px solid #bc2a8d;
+    box-shadow: 0 0 15px #bc2a8d;
+    transition: all 0.5s ease;
+    color: #bc2a8d;
+    cursor: pointer;
+    scale: 1.1;
+}
+.google:hover >a i{
+    border: 5px solid #dd4b39;
+    box-shadow: 0 0 15px #dd4b39;
+    transition: all 0.5s ease;
+    color: #dd4b39;
+    cursor: pointer;
+    scale: 1.1;
+}
+.whatsapp:hover >a i{
+    border: 5px solid #4dc247;
+    box-shadow: 0 0 15px #4dc247;
+    transition: all 0.5s ease;
+    color:#4dc247;
+    cursor: pointer;
+    scale: 1.1;
+} */
+
+
+
+/* contact-us-body-content */
+
+.contact-us-body-content-logo i{
+    padding: 10px;
+    border-radius: 50%;
+    color:#fff;
+    /* background-color: #222250; */
+    background-color: #9f869d;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+}   
+/* .india-map{
+    background-image: url("../images/ind-kol.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 450px;
+    width: 100%;
+    position: relative;
+} */
+
+/* for animate form input css */
+
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+
+* {
+	box-sizing: border-box;
+}
+
+
+/* body {
+	font-family: 'Muli', sans-serif;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	min-height: 100vh;
+	margin: 0;
+} */
+
+.contact-us-input {
+	position: relative;
+	margin: 20px 0;
+	width: 300px;
+    border: none !important;
+    outline: none !important;
+    padding: 0 !important;
+}
+
+.contact-us-input input {
+	border: 0;
+	border-bottom: 1px solid #333;
+	padding: 15px 0;
+	display: block;
+	font-size: 18px;
+	font-family: 'Muli', sans-serif;
+	width: 100%;
+	transition: 0.1s ease-in;
+}
+
+.contact-us-input input:focus, 
+.contact-us-input input:valid {
+	border-bottom-color: darksalmon;
+	outline: none;
+}
+
+.contact-us-input input:focus + label span ,
+.contact-us-input input:valid + label span{
+	color: darksalmon;
+	transform: translateY(-30px);
+}
+
+.contact-us-input label {
+	position: absolute;
+	top: 15px;
+	left: 0;
+}
+
+.contact-us-input label span {
+	display: inline-block;
+	font-size: 18px;
+	min-width: 5px;
+	transition: 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.contact-us-bottom{
+    /* background-image: url("../bg-img/bg02.jpg"); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-color: #f0c43dab;
+}
+.contact-us-bottom-lear{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #ecefaf80;
+}
+.contact-us-bottom-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;    
+    position: relative;
+    color: #fff;
+    padding: 40px;
+
+}
+.contact-us-bottom-content h1{
+    text-shadow: 1px 2px 4px gray;
+}
+.contact-us-bottom-content h6{
+    margin: 40px 0;
+}
+.contact-us-bottom-content p{
+    color: #000;
+    font-size: 14px;
+}
+#pay{
+    color: #ffc107;
+}
+#hello{
+    color: #000;
+    font-weight: bold;
+}
+#google-map-iframe{
+    height: 450px;
+    border-radius: 10px;
+}
+
+
+/* ABOUT US PAGE */
+
+.about-us-bg-img{
+    background-image: url('../images/office-room.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 250px;
+    width: 100%;
+    position: relative;
+}
+.about-us-background-inner{
+    height: 100%;
+    width: 100%;
+    background: rgba(0,0,0,.7);
+}
+.about-us-heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    filter: drop-shadow(2px 4px 6px black);
+    font-family: sans-serif;
+    font-size: 45px;
+    letter-spacing: 3px;
+}
+.about-us-content-p{
+    line-height: 35px;
+    font-family: serif;
+    font-size: 20px;
+    word-spacing: 4px;
+}
+.about-us-content-p.li{
+    font-size: 18px;
+    line-height: 30px;
+}
+.name-of-team-membar{
+    font-family: sans-serif;
+    font-size: 24px;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+    margin: 20px;
+}
+.team-membar-position{
+    font-family: serif;
+    font-size: 13px;
+    letter-spacing: 1px;
+}
+
+    /* our value */
+
+.our-values ,.share-details{
+    background-image: url("../bg-img/bg02.jpg");
+    /* background-color: #ffff004a; */
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+    padding-bottom: 30px;
+}
+.our-values-img{
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.our-values-img img{
+    filter: drop-shadow(2px 3px 6px lightgray);
+    height: 120px;
+}
+.cursor-pointer{
+    cursor: pointer;
+}
+
+/* POLICY AND PRIVECY PAGE */
+
+.policy-top-img{
+    background-image: url("../images/policy01.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 350px;
+    width: 100%;
+    position: relative;
+}
+.policy-top-img-inner{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-color: rgba(0,0,0,.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.policy-top-img-inner h1{
+    letter-spacing: 3px;
+    position: sticky;
+    top:100px;
+}
+
+/* Langueage verson */
+
+#home-tab,#profile-tab{
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-family: "Montserrat", Sans-serif;
+}
+.font-family-Montserrat{
+    font-family: Montserrat;
+}
+.policy-content p{
+    padding: 25px 0px;
+    letter-spacing: 1px;
+    line-height: 1.9;
+    word-spacing: 2px;
+    font-size: 15px;
+}
+.policy-content li,.policy-content span ,.policy-content th,.policy-content td{
+    letter-spacing: 1px;
+    line-height: 1.9;
+    word-spacing: 2px;
+    font-size: 15px;
+}
+
+.policy-content-Points{
+    font-weight: bold !important;
+}
+
+/* Terms and condition  */
+
+.term-condition-fonts{
+    font-family: 'Muli', sans-serif;
+    letter-spacing: 1px;
+    line-height: 1.9;
+    word-spacing: 2px;
+    font-size: 17px;
+    padding: 0 50px;
+}
+.prismjs{
+    white-space: pre-wrap;
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 15px;
+    border: 1px solid gray;
+    box-shadow: 0px 0px 3px gray;
+}
+.toolbar-item button{
+    margin: 30px 0;
+    padding: 5px 30px ;
+    background-color: #000;
+    color: #fff;
+    border-radius: 10px;
+}
+.toolbar-item button:hover{
+    background-color: #fff;
+    border: 1px solid #000;
+    color: #000;
+    transition: all 0.5s ease-in-out;
+    box-shadow: 0px 0px 5px;
+    font-weight: bold;
+}

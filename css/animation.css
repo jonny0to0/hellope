@@ -1,0 +1,50 @@
+/* .bannar-sub-bg-img-animation{
+    opacity: 0;
+}
+.bannar-sub-bg-img-animation .animated{
+    opacity: 1;
+} */
+
+/* .smart-billing01, */
+.bannar-heading,
+.bannar-sub-bg-img1,
+.what-we-do-heading,
+.what-we-do-heading-box,
+.grow-your-business-img,
+.grow-your-business-content,
+.connected-banking-solution-content,
+.connected-banking-solution-img,
+.valu-added-services-content,
+.valu-added-services-img,
+.product01,.product02,.product03,.product04,
+.grow-with-hellope-img-ariea,
+.grow-with-hellope-content-ariea,
+.counter,
+.partners-company-logo-content,
+.company-logo
+{
+    opacity: 0;
+}
+
+/* .smart-billing01.animate__animated, */
+.bannar-heading.animate__animated,
+.bannar-sub-bg-img1.animate__animated,
+.what-we-do-heading.animate__animated,
+.what-we-do-heading-box.animate__animated,
+.grow-your-business-img.animate__animated,
+.grow-your-business-content.animate__animated,
+.connected-banking-solution-content.animate__animated,
+.connected-banking-solution-img.animate__animated,
+.valu-added-services-img.animate__animated,
+.valu-added-services-content.animate__animated,
+.product01.animate__animated,
+.product02.animate__animated,
+.product03.animate__animated,
+.product04.animate__animated,
+.grow-with-hellope-img-ariea.animate__animated,
+.counter.animate__animated,
+.partners-company-logo-content.animate__animated,
+.company-logo.animate__animated
+{
+    opacity: 1;
+}
