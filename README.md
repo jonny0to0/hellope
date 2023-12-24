@@ -9,6 +9,6 @@ A simple landing website [ Click here to visit ]([http://www.example.com](http:/
 * Bootstrap Icons ,
 * And php also, 
 
-#Features
+# Features
 * 🎨 Styled with Bootstrap and Css
 * 📱 Fully Responsive
