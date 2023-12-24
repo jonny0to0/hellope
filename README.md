@@ -7,8 +7,8 @@ A simple landing website [ Click here to visit ]([http://www.example.com](http:/
 * Bootstrap ,
 * FontAwesome Icons ,
 * Bootstrap Icons ,
-* And php also .
-#Features
+* And php also, 
 
+#Features
 * 🎨 Styled with Bootstrap and Css
 * 📱 Fully Responsive
